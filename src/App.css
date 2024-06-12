@@ -1,0 +1,141 @@
+@import "./index.css";
+
+body {
+    font-family: "MyCustomFont", sans-serif;
+    padding: 80px 180px;
+}
+
+.font-regular {
+  font-weight: 400;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-black {
+  font-weight: 900;
+}
+
+.grey{
+   color: #767575;
+}   
+
+.lightgrey{
+   color: #D4D4D4;
+}
+
+.bg-grey{
+    background-color: #303030;
+}
+
+.spaceBtwSentences{
+     margin-top: 20px;
+}
+
+.spaceBtwSections{
+    margin-top: 50px;
+}
+
+.spaceBtwItems{
+     margin-top: 50px;
+}
+
+li::marker{
+    color: blueviolet;
+}
+
+
+.scrolling-container {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  position: relative;
+}
+
+.scrolling-content {
+  display: inline-flex;
+  animation: scroll-left 30s linear infinite;
+}
+
+.scrolling-content.reverse-scroll {
+  animation: scroll-right 30s linear infinite;
+}
+
+.skill-badge {
+  display: inline-block;
+  margin-right: 1rem;
+  font-size: 12.5px;
+  font-weight: font-light;
+  background-color: rgba(75, 85, 99, 0.25);
+  border: 0.2px solid rgba(75, 85, 99, 0.5);
+  border-radius: 9999px;
+  padding: 0.4rem 0.6rem;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes scroll-right {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+
+
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
