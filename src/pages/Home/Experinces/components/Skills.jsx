@@ -16,7 +16,7 @@ const Skills = () => {
     <>
 
         {/* Skills */}
-        <div className='w-96 min-h-full flex flex-col gap-3'>
+        <div className='lg:w-96 w-full min-h-full flex flex-col gap-3'>
                     <div className='bg-gray-400 rounded-[30px] bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border-[0.2px] border-gray-700 py-5 pb-10 px-8 lightgrey w-full h-full'>
                             <p className='text-lg font-medium'>Skills & Expertise</p>
 
@@ -45,12 +45,12 @@ const Skills = () => {
                                 </div>
                     </div>
 
-                    <div className='bg-gray-400 rounded-[30px] bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border-[0.2px] border-gray-700 py-5 pb-10 px-8 lightgrey w-96 h-full'>
+                    <div className='bg-gray-400 rounded-[30px] bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border-[0.2px] border-gray-700 py-5 pb-10 px-8 lightgrey lg:w-96 w-full h-full'>
 
                                <p className='text-lg font-medium'>Essential Stacks</p> 
                                <p className='font-light text-[14px] grey mt-4'>A comprehensive collection of some of the languages and tools I use in devloping.</p> 
 
-                               <div className='w-full flex mt-8 items-center gap-2'>
+                               <div className='w-full flex flex-wrap mt-8 items-center justify-center gap-2'>
                                     <div className='py-1 px-1 pb-3 w-9 h-9 bg-white flex rounded-[10px]' title="Figma">
                                         <img src={ Figma } alt="Figma" className='w-7 h-7'/>
                                     </div>

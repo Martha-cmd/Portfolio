@@ -6,10 +6,10 @@ import ReadCV from './components/ReadCV'
 const About = () => {
   return (
     <>
-        <main className='my-24 w-full h-full px-5'>
+        <main className='my-24 w-full h-full lg:px-[180px] md:px-[50px] px-[20px] mt-52'>
 
             <p className='grey font-regular text-xl mb-4 tracking-widest'> ABOUT ME </p>
-              <p className='font-bold text-2xl'>
+              <p className='font-bold md:text-2xl text:xl'>
                     Hello there! 👋 I'm Martha Agu, a Software Engineering graduate, driven by a passion for creating innovative and impactful projects. My journey in software development has been fueled by a love for building and a constant curiosity to learn and grow.
 
                     <p className='mt-5 grey font-regular'>As a full-stack developer, I specialize in both web and mobile development, ensuring seamless user experiences across all platforms. My expertise extends to UI/UX design, where I focus on creating intuitive and visually appealing interfaces that delight users.</p>
@@ -22,7 +22,7 @@ const About = () => {
                     
               </p>
 
-              <div className='w-full flex mt-16 gap-3'>
+              <div className='w-full flex md:flex-row flex-col mt-16 gap-3'>
                    <Exp />
                    <Education />
                    <ReadCV />

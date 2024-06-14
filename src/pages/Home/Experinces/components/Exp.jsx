@@ -12,7 +12,7 @@ const Exp = () => {
 
     return (
         <>
-            <div className='bg-gray-400 rounded-[30px] bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border-[0.2px] border-gray-700 py-5 pb-5 px-5 lightgrey w-full'>
+            <div className='bg-gray-400 rounded-[30px] bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border-[0.2px] border-gray-700 py-5 pb-5 px-5 lightgrey md:min-w-96 w-full'>
 
                 {/* Header */}
 
@@ -22,14 +22,16 @@ const Exp = () => {
                 </div>
 
                 {/* Exps */}
-                <div className='w-full flex flex-col items-start mt-8'>
+                <div className='w-full flex flex-col items-start mt-8 gap-42'>
 
                     {experiences.map((experience, index) => (
                         <div key={index} className='flex items-start justify-start gap-4 w-full'>
 
                             <div className='flex flex-col items-center'>
                                 <FaCircle size={8} className='fill-green-600' />
-                                <div className={`w-[0.5px] h-${index === 4 ? 10 : 16} border-[0.5px] border-gray-700`}></div>
+                                <div className={`w-[0.5px] h-16 border-[0.5px] border-gray-700`}>
+                                     {/* h-${index === 4 ? 10 : 16} */}
+                                </div>
                             </div>
 
                             <div className='w-full flex flex-col -mt-[5px]'>

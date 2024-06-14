@@ -8,7 +8,7 @@ const Experinece = () => {
 
   return (
     <>
-       <main className='py-5 w-full flex gap-3'>
+       <main className='py-5 w-full flex lg:flex-row flex-col gap-3 lg:px-[180px] md:px-[50px] px-[20px]'>
 
 
            {/* Experience  */}

@@ -5,7 +5,7 @@ import { GoArrowRight } from "react-icons/go";
 const Connect = () => {
   return (
     <>
-         <div className='bg-gray-400 rounded-[30px] bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border-[0.2px] border-gray-700 py-5 pb-5 px-8 lightgrey w-full flex flex-col justify-between'>
+         <div className='bg-gray-400 rounded-[30px] bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border-[0.2px] border-gray-700 py-5 pb-5 px-8 lightgrey lg:w-fit w-full flex flex-col justify-between'>
 
             <div>
                         {/* Header */}
