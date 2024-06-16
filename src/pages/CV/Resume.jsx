@@ -5,7 +5,7 @@ import { MdOutlineFileDownload } from "react-icons/md";
 const Resume = () => {
   return (
     <>
-    <main className='w-full lg:px-[180px] px-[50px] mt-52 mb-20'>
+    <main className='w-full lg:px-[180px] md:px-[50px] px-20 mt-52 mb-20'>
            <p className='lightgrey font-bold text-5xl mb-4'>CV </p>
            <p className='grey font-light md:text-2xl text-lg'>Explore my professional journey and accomplishments, including my projects and key skills.</p>
 
