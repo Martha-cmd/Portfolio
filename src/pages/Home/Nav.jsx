@@ -2,6 +2,7 @@ import React from 'react'
 import { GoPerson } from "react-icons/go";
 import { FiMonitor, FiFile } from "react-icons/fi";
 import { Link } from 'react-router-dom';
+import Martha  from '../../assets/images/Apple_Memojis-portfolio.png'
 
 const Nav = () => {
         return (
@@ -13,8 +14,8 @@ const Nav = () => {
                                         {/* Nav with buttons */}
                                         <div className='flex justify-center md:gap-5 gap-3'>
                                                 <Link to='/' className='flex flex-col items-center justify-center'>
-                                                        <div className='md:w-10 w-7 md:h-10 h-7 bg-gray-950 rounded-full flex items-center justify-center md:text-[27px] text-[20px]'>
-                                                                👩‍💻
+                                                        <div className='md:w-10 w-7 md:h-10 h-7 bg-gray-950 rounded-full flex items-center justify-center'>
+                                                                <img src={ Martha } alt="Martha" className='w-full'/>
                                                         </div>
                                                         <p className='grey text-[12px]'>Home</p>
                                                 </Link>
@@ -33,12 +34,12 @@ const Nav = () => {
                                                         <p className='grey text-[12px]'>Projects</p>
                                                 </Link>
 
-                                                <div className='flex flex-col items-center justify-center'>
+                                                <Link to='/cv' className='flex flex-col items-center justify-center'>
                                                         <div className='md:w-10 w-7 md:h-10 h-7 bg-gray-950 rounded-full flex items-center justify-center'>
                                                                 <FiFile />
                                                         </div>
                                                         <p className='grey text-[12px]'>CV</p>
-                                                </div>
+                                                </Link>
                                         </div>
 
                                         {/* Divider */}

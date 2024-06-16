@@ -6,6 +6,7 @@ import Footer from './Home/Footer'
 import Copyright from './Home/Copyright'
 import About from './About/About'
 import Projects from './Projects/Projects'
+import Resume from './CV/Resume'
 
 const Index = () => {
   return (
@@ -16,6 +17,7 @@ const Index = () => {
                     <Route path='/' element={<Home />}/>
                     <Route path='about' element={<About />}/>
                     <Route path='projects' element={<Projects />}/>
+                    <Route path='cv' element={<Resume />}/>
             </Routes>
            <Footer />
              <Copyright />
