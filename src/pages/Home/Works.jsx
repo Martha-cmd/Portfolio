@@ -8,6 +8,7 @@ import SpearAca from '../../assets/images/Frame 49.png'
 import HS from '../../assets/images/Frame 5.png'
 import { FaHeadphones } from "react-icons/fa";
 import { MdOutlineElectricBike, MdPayments } from "react-icons/md";
+import { Link } from 'react-router-dom'
 
 
 const Works = () => {
@@ -18,7 +19,10 @@ const Works = () => {
             case "mobile": 
                 return (
                   <div className='spaceBtwItems w-full lg:flex lg:flex-row md:grid md:grid-cols-2 flex flex-col lg:justify-center items-center gap-10 lg:gap-3'>
-                    <div className='mt-5 w-full'>
+
+                    
+                    <Link to="/kedu" className='mt-5 w-full'>
+
                       <div className='md:w-72 w-full h-40 bg-blue-600 rounded-tr-lg rounded-tl-lg flex px-10 items-center justify-center gap-5'>
                            <img src={ KeduApp } alt="music-streaming" className='w-16 h-32'/>
                            <FaHeadphones className='' size={30}/>
@@ -27,9 +31,9 @@ const Works = () => {
                         Music Streaming App
                         <p className='text-sm font-regular grey'>A music streaming and subscription based app</p>
                       </div>
-                    </div>
+                    </Link>
 
-                    <div className='mt-5 w-full'>
+                    <Link to='/foodie' className='mt-5 w-full'>
                       <div className='md:w-72 w-full h-40 bg-orange-600 rounded-tr-lg rounded-tl-lg flex items-center justify-center'>
                                    <img src={ FoodieApp } alt="music-streaming" className='w-32 h-42'/>
 
@@ -38,9 +42,9 @@ const Works = () => {
                         Food Delivery App
                         <p className='text-sm font-regular grey'>A food delivery app that connects customers, restaurants and riders</p>
                       </div>
-                    </div>
+                    </Link>
 
-                    <div className='mt-5 w-full'>
+                    <Link to='/swifa' className='mt-5 w-full'>
                       <div className='md:w-72 w-full h-40 bg-purple-600 rounded-tr-lg rounded-tl-lg flex items-center justify-center'>
                                  <img src={ SWIJApp } alt="music-streaming" className='w-42 h-32'/>
                       </div>
@@ -48,7 +52,7 @@ const Works = () => {
                         Online Course App
                         <p className='text-sm font-regular grey'>An online course app for a Fashion Academy</p>
                       </div>
-                    </div>
+                    </Link>
                   </div>
                 );
                 case 'web':

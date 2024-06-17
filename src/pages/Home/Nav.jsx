@@ -5,7 +5,12 @@ import { Link } from 'react-router-dom';
 import Martha  from '../../assets/images/Apple_Memojis-portfolio.png'
 
 const Nav = () => {
-        return (
+        const phoneNumber = "08145523042"; // Replace with your phone number
+        const message = "Hello! Martha I would like to connect with you."; // Replace with your message
+
+        const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+
+                return (
                 <>
                         <main className='w-full flex justify-center cursor-pointer fixed mb-52 top-16 z-50 lg:px-0 px-[20px]'>
 
@@ -46,9 +51,11 @@ const Nav = () => {
                                         <div className='w-[0.5px] h-10 border-[0.5px] border-gray-700'></div>
 
                                         {/* Buttons */}
-                                        <button className='py-2 px-3 bg-white md:text-normal text-[12px] text-black rounded-full font-medium'>
+                                        <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
+                                        <button className='py-2 px-3 bg-white lg:text-base md:text-base text-[12px] text-black rounded-full font-medium'>
                                                 Hire me! 👋
                                         </button>
+                                        </a>
                                 </div>
                         </main>
                 </>

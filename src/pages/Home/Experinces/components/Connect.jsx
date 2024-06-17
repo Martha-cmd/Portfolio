@@ -14,7 +14,11 @@ const Connect = () => {
                         <div className='mt-8 flex flex-col gap-8'>
                             <div className='w-full flex items-center gap-5 lightgrey'>
                                 <FaDribbble size={18}/>
+
+                                <a href="https://dribbble.com/marthadev" target='_blank'
+                                rel='noopener noreferrer'>
                                 <p className='font-light lightgrey text-[14px]'>Dribbble</p>
+                                </a>
                             </div>   
 
                                 <div className='w-full flex items-center gap-5 lightgrey'>
@@ -24,13 +28,17 @@ const Connect = () => {
 
                                 <div className='w-full flex items-center gap-5 lightgrey'>
                                 <FaGithub size={18}/>
+
+                                <a href="https://github.com/Martha-cmd" target='_blank'
+                                rel='noopener noreferrer'>
                                 <p className='font-light text-[14px] lightgrey'>GitHub</p>
+                                </a>
                                 </div>
 
-                                <div className='w-full flex items-center gap-5 lightgrey'>
+                                {/* <div className='w-full flex items-center gap-5 lightgrey'>
                                 <FaWhatsapp size={18}/>
                                 <p className='font-light text-[14px] lightgrey'>Whatsapp</p>
-                                </div>
+                                </div> */}
 
 
                         </div>

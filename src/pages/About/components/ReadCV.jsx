@@ -16,7 +16,7 @@ const ReadCV = () => {
               </div>
 
 
-       <div className='text-[12.5px] flex items-center gap-2 font-light bg-gray-600 rounded-full bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border-[0.2px] border-gray-700 px-3 py-3 lightgrey w-fit mt-5'>View Resume <GoArrowUpRight size={18}/></div>
+       <div className='text-[12.5px] flex items-center gap-2 font-light bg-gray-600 rounded-full bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border-[0.2px] border-gray-700 px-3 py-3 lightgrey w-fit mt-5 hover:bg-gray-800'>View Resume <GoArrowUpRight size={18}/></div>
 
        </div>
     </>

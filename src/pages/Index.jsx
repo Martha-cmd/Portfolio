@@ -7,6 +7,9 @@ import Copyright from './Home/Copyright'
 import About from './About/About'
 import Projects from './Projects/Projects'
 import Resume from './CV/Resume'
+import MusicApp from './SingleProjects/MobileDev/MusicApp'
+import FashionAcademy from './SingleProjects/MobileDev/FashionAcademy'
+import FoodieApp from './SingleProjects/MobileDev/FoodieApp'
 
 const Index = () => {
   return (
@@ -18,6 +21,9 @@ const Index = () => {
                     <Route path='about' element={<About />}/>
                     <Route path='projects' element={<Projects />}/>
                     <Route path='cv' element={<Resume />}/>
+                    <Route path='kedu' element={<MusicApp />}/>
+                    <Route path='swifa' element={<FashionAcademy />}/>
+                    <Route path='foodie' element={<FoodieApp />}/>
             </Routes>
            <Footer />
              <Copyright />
