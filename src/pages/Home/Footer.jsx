@@ -3,7 +3,7 @@ import { TiStarburst } from "react-icons/ti";
 import { HiSparkles } from "react-icons/hi";
 
 const Footer = () => {
-     const phoneNumber = "08145523042"; // Replace with your phone number
+     const phoneNumber = "+2348145523042"; // Replace with your phone number
         const message = "Hello! Martha I would like to connect with you."; // Replace with your message
 
         const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
