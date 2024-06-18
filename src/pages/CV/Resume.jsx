@@ -1,7 +1,7 @@
 import React from 'react'
 import { CiFileOn } from "react-icons/ci";
 import { MdOutlineFileDownload } from "react-icons/md";
-import MyResume from '../../assets/Files/MarthaResume.pdf'
+import MyResume from '../../assets/Files/MarthasResume.pdf';
 
 const Resume = () => {
   return (
