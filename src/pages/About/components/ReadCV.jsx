@@ -1,6 +1,7 @@
 import React from 'react'
 import { ImProfile } from "react-icons/im";
 import { GoArrowUpRight } from "react-icons/go";
+import { Link } from 'react-router-dom';
 
 
 const ReadCV = () => {
@@ -16,7 +17,7 @@ const ReadCV = () => {
               </div>
 
 
-       <div className='text-[12.5px] flex items-center gap-2 font-light bg-gray-600 rounded-full bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border-[0.2px] border-gray-700 px-3 py-3 lightgrey w-fit mt-5 hover:bg-gray-800'>View Resume <GoArrowUpRight size={18}/></div>
+       <Link to="/cv" className='text-[12.5px] flex items-center gap-2 font-light bg-gray-600 rounded-full bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border-[0.2px] border-gray-700 px-3 py-3 lightgrey w-fit mt-5 hover:bg-gray-800'>View Resume <GoArrowUpRight size={18}/></Link>
 
        </div>
     </>
