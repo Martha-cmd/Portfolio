@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import Martha  from '../../assets/images/Apple_Memojis-portfolio.png'
 
 const Nav = () => {
-        const phoneNumber = "08145523042"; // Replace with your phone number
+        const phoneNumber = "+2348145523042"; // Replace with your phone number
         const message = "Hello! Martha I would like to connect with you."; // Replace with your message
 
         const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
