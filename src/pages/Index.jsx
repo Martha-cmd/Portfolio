@@ -10,6 +10,7 @@ import Resume from './CV/Resume'
 import MusicApp from './SingleProjects/MobileDev/MusicApp'
 import FashionAcademy from './SingleProjects/MobileDev/FashionAcademy'
 import FoodieApp from './SingleProjects/MobileDev/FoodieApp'
+import Certificate from './CV/Certificate'
 
 const Index = () => {
   return (
@@ -24,6 +25,7 @@ const Index = () => {
                     <Route path='kedu' element={<MusicApp />}/>
                     <Route path='swifa' element={<FashionAcademy />}/>
                     <Route path='foodie' element={<FoodieApp />}/>
+                    <Route path='cert' element={<Certificate />}/>
             </Routes>
            <Footer />
              <Copyright />
