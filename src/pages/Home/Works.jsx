@@ -81,6 +81,11 @@ const Works = () => {
                             </div>
                           </div>
                           </a> 
+
+                          <a href="https://foodiielogistics.netlify.app"
+                                target='_blank'
+                                rel='noopener noreferrer'
+                                >
                           <div className='mt-5 w-full'>
                             <div className='md:w-72 w-full lg:h-40 h-fit rounded-tr-lg rounded-tl-lg flex bg-gradient-to-tr from-[#FED8CE] to-[#FBA68F] justify-center'>
                                      <img src={ FoodieSite } alt="Foodie Landing Page" className='w-full'/>
@@ -90,6 +95,7 @@ const Works = () => {
                               <p className='text-sm font-regular grey'>A food delivery landing page showcasing their services and app features</p>
                             </div>
                           </div>
+                          </a>
 
                           
                           <a href="https://spear-academy.netlify.app"

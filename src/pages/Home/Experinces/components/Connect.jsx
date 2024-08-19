@@ -23,7 +23,10 @@ const Connect = () => {
 
                                 <div className='w-full flex items-center gap-5 lightgrey'>
                                 <FaLinkedin size={18}/>
+                                <a href="https://www.linkedin.com/in/marthaln/" target='_blank'
+                                rel='noopener noreferrer'>
                                 <p className='font-light text-[14px] lightgrey'>LinkedIn</p>
+                                </a>
                                 </div>
 
                                 <div className='w-full flex items-center gap-5 lightgrey'>
