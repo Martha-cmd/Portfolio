@@ -136,7 +136,6 @@ const FashionAcademy = () => {
             Flutter, ensuring a smooth and responsive user experience across
             both iOS and Android platforms.
           </p>
-
           <p>
             {" "}
             <span className="font-medium">Firebase Integration: </span>Firebase
@@ -144,7 +143,6 @@ const FashionAcademy = () => {
             cloud storage, and analytics. This integration ensures real-time
             updates and secure data handling.
           </p>
-
           <p>
             {" "}
             <span className="font-medium">API Integration: </span>Implemented
@@ -152,13 +150,36 @@ const FashionAcademy = () => {
             and the backend server, facilitating smooth data exchange and
             functionality.
           </p>
-
           <p>
             {" "}
             <span className="font-medium">Secure Media Playback: </span>Employed
             secure media playback techniques to prevent unauthorized access to
             the video content, including encryption and digital rights
             management (DRM) solutions.
+          </p>
+
+          <p>
+            {" "}
+            <span className="font-medium">In-App Purchases (iOS): </span>
+            Implemented Apple's In-App Purchase (IAP) system, allowing users to
+            securely buy courses, manage payments and content.
+          </p>
+          <p>
+            {" "}
+            <span className="font-medium">
+              Third-Party Payments (Android):{" "}
+            </span>
+            Integrated the PayStack payment API to enable fast and secure
+            payments.
+          </p>
+
+          <p>
+            {" "}
+            <span className="font-medium">Admin App: </span>Developed a separate
+            app for the admin to manage the SWIFA online course platform,
+            featuring analytics tools, course management, user management,
+            payment management, and uploading capabilities, all in one
+            convenient mobile app dashboard.
           </p>
         </div>
 
