@@ -208,7 +208,7 @@ const FashionAcademy = () => {
           </a>
 
           <a
-            href="https://play.google.com/store/apps/details?id=com.swifa.fashion_academy"
+            href="https://apps.apple.com/ng/app/sew-with-ijeoma/id6618112076"
             target="_blank"
             rel="noopener noreferrer"
           >
